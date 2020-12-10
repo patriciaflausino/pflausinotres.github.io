@@ -1,0 +1,67 @@
+form{
+	width: 500px;
+	margin: auto;
+}
+
+input{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 14pt;
+}
+
+input:hover{
+	background-color: gray;
+}
+
+legend{
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
+}
+
+fieldset{
+	border-color: black;
+	margin: 20px;
+}
+section#contato article{
+	width: 100%;
+	margin-top: 10px;
+}
+@media (max-width: 768px){
+form{
+	width: 200px;
+	margin-left: 30px;
+}
+
+input{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+input:hover{
+	background-color: gray;
+}
+
+legend{
+	color: black;
+	font-size: 12pt;
+	font-weight: bolder;
+}
+
+fieldset{
+	border-color: black;
+	margin: 0px;
+}
+section#contato article{
+	width: 200px;
+	margin-top: 5px;
+}
+form#frm_contato1 fieldset{
+	width: 200px;
+	margin-top: 5px;
+}
+fieldset#duvidas textarea{
+	width: 200px;
+}
+}
